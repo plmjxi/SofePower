@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".place.Temple">
+
+        <RelativeLayout
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/light_pink"
+            android:padding="10dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temple"
+                android:textColor="@color/dark_white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/temple1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/Header">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/phrakaew"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/phrakaew">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Emerald Buddha Temple"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดพระแก้ว"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatphrakaew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/temple1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple1">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/arun"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/arun"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="the Temple of Dawn"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดอรุณ"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatarun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple2"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple2">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/pho"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/watpho"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="the Temple of the Reclining Buddha"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดโพธิ์"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatpho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple3"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple3">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/maniwong"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/maniwong"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Wat Maniwong"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดมณีวงศ์"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatmaniwong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple4"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple4">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/rongkhun"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rongkhun"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="White Temple"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดร่องขุ่น"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatrongkhun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple5"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple5">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/watthanaram"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/chaiwat"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Wat Chaiwatthanaram"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดไชยวัฒนาราม"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatchaiwatthanaram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple6"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple6">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/watphraso"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/phrasi"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Temple of the Holy, Splendid Omniscient"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดพระศรีสรรเพชญ์"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatphrasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple7"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple7">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/watphradoi"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/watdoisuthap"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Wat Phrathat Doi Suthep"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดพระธาตุดอยสุเทพ"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatphradoi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple8"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple8">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/watphokahothong"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/watphokahothong"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Temple of the Golden Mount Bangkok"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดสระเกศ หรือ วัดภูเขาทอง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatphukahothong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple9"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/temple10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/temple9">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/watsothon"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sothon"
+                app:shapeAppearanceOverlay="@style/circular">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/temple010"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Temple of Dignity"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="วัดโสธรวรารามวรวิหาร"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewwatsothon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_pink"
+                    android:gravity="center"
+                    android:text="@string/temple10"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

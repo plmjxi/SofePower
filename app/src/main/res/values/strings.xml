@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">Sofe Power</string>
+
+    <string name="link1">
+        Click <a href="https://cooking.kapook.com/view186553.html"> How To </a>
+    </string>
+
+    <string name="link2">
+        Click <a href="https://www.wongnai.com/recipes/thai-fried-noodles-with-shrimp"> How To </a>
+    </string>
+
+    <string name="link3">
+        Click <a href="https://food.trueid.net/detail/k7DvOYgLXXeP"> How To </a>
+    </string>
+
+    <string name="link4">
+        Click <a href="https://www.wongnai.com/recipes/ugc/0d53d089d4a249688bedd3ba2228f092"> How To </a>
+    </string>
+
+    <string name="link5">
+        Click <a href="https://www.wongnai.com/recipes/stir-fried-minced-pork-with-yellow-curry-paste"> How To </a>
+    </string>
+
+    <string name="link6">
+        Click <a href="https://www.wongnai.com/recipes/northern-thai-curried-noodles-soup"> How To </a>
+    </string>
+
+    <string name="link7">
+        Click <a href="https://www.wongnai.com/recipes/ugc/59aba3b165f04f6a897286289a6c1351"> How To </a>
+    </string>
+
+    <string name="link8">
+        Click <a href="https://www.wongnai.com/recipes/thai-rice-noodles-in-fish-curry-sauce"> How To </a>
+    </string>
+
+    <string name="link9">
+        Click <a href="https://www.wongnai.com/recipes/hat-yai-fried-chicken"> How To </a>
+    </string>
+
+    <string name="link10">
+        Click <a href="https://cooking.kapook.com/view227497.html"> How To </a>
+    </string>
+
+    <string name="island1">
+        Click <a href="https://maps.app.goo.gl/NLt7PYiQ5gQe5nqGA"> GPS </a>
+    </string>
+
+    <string name="island2">
+        Click <a href="https://maps.app.goo.gl/fHHxxp4e5ZpBugb56"> GPS </a>
+    </string>
+
+    <string name="island3">
+        Click <a href="https://maps.app.goo.gl/PbAr1tsAwbiDW34y7"> GPS </a>
+    </string>
+
+    <string name="island4">
+        Click <a href="https://maps.app.goo.gl/KpLvsZgju9CDUjdk6"> GPS </a>
+    </string>
+
+    <string name="island5">
+        Click <a href="https://maps.app.goo.gl/B4eGSEgj32QJdxAH6"> GPS </a>
+    </string>
+
+    <string name="island6">
+        Click <a href="https://maps.app.goo.gl/VqQunjEn4hApV4vr6"> GPS </a>
+    </string>
+
+    <string name="island7">
+        Click <a href="https://maps.app.goo.gl/sxWjwbfMFf8Ty7h39"> GPS </a>
+    </string>
+
+    <string name="island8">
+        Click <a href="https://maps.app.goo.gl/mdNigFqtN5DkgR8z8"> GPS </a>
+    </string>
+
+    <string name="island9">
+        Click <a href="https://maps.app.goo.gl/24GcGQJRR1R1CF6r7"> GPS </a>
+    </string>
+
+    <string name="island10">
+        Click <a href="https://maps.app.goo.gl/eTHYki8CytNb5PkG8"> GPS </a>
+    </string>
+
+    <string name="temple1">
+        Click <a href="https://maps.app.goo.gl/7y9VaHPGkCQusfTg7"> GPS </a>
+    </string>
+
+    <string name="temple2">
+        Click <a href="https://maps.app.goo.gl/6XtxkcWR4ezvosQy5"> GPS </a>
+    </string>
+
+    <string name="temple3">
+        Click <a href="https://maps.app.goo.gl/LxtEBMCxHmrDcHor9"> GPS </a>
+    </string>
+
+    <string name="temple4">
+        Click <a href="https://maps.app.goo.gl/RpoYpFJ1NTfAoM2K6"> GPS </a>
+    </string>
+
+    <string name="temple5">
+        Click <a href="https://maps.app.goo.gl/68WDkLj5jZyptnFz8"> GPS </a>
+    </string>
+
+    <string name="temple6">
+        Click <a href="https://maps.app.goo.gl/mkErYbj3tCVP7Cbi8"> GPS </a>
+    </string>
+
+    <string name="temple7">
+        Click <a href="https://maps.app.goo.gl/nvfGaamCeX1YaH9h7"> GPS </a>
+    </string>
+
+    <string name="temple8">
+        Click <a href="https://maps.app.goo.gl/A5xKHKqWwSHUHocw9"> GPS </a>
+    </string>
+
+    <string name="temple9">
+        Click <a href="https://maps.app.goo.gl/MYSsoUGNxhZDPZhL6"> GPS </a>
+    </string>
+
+    <string name="temple10">
+        Click <a href="https://maps.app.goo.gl/dJmKS4cMuASbxk6P8"> GPS </a>
+    </string>
+
+    <string name="waterfall1">
+        Click <a href="https://maps.app.goo.gl/khfdYh58uwTNaWKR8"> GPS </a>
+    </string>
+
+    <string name="waterfall2">
+        Click <a href="https://maps.app.goo.gl/9zG3BXK7fN4By82E8"> GPS </a>
+    </string>
+
+    <string name="waterfall3">
+        Click <a href="https://maps.app.goo.gl/Ee9Ed6kHNB4vUVkk7"> GPS </a>
+    </string>
+
+    <string name="waterfall4">
+        Click <a href="https://maps.app.goo.gl/bq6E6E6WGYuFhiEj6"> GPS </a>
+    </string>
+
+    <string name="waterfall5">
+        Click <a href="https://maps.app.goo.gl/FMCdQFwohZ3rFH5R8"> GPS </a>
+    </string>
+
+    <string name="waterfall6">
+        Click <a href="https://maps.app.goo.gl/4JX6Kb8qGxk77TrNA"> GPS </a>
+    </string>
+
+    <string name="waterfall7">
+        Click <a href="https://maps.app.goo.gl/bcMbKK6oybLVAUS27"> GPS </a>
+    </string>
+
+    <string name="waterfall8">
+        Click <a href="https://maps.app.goo.gl/FtQ1eyGs8JzLQLdY8"> GPS </a>
+    </string>
+
+    <string name="waterfall9">
+        Click <a href="https://maps.app.goo.gl/DbSQNMkZnoPJy3ss9"> GPS </a>
+    </string>
+
+    <string name="waterfall10">
+        Click <a href="https://maps.app.goo.gl/LPr1mbTDjj1AWXUU9"> GPS </a>
+    </string>
+
+    <string name="mountain1">
+        Click <a href="https://maps.app.goo.gl/7MsEJvXZPxuFSB6z7"> GPS </a>
+    </string>
+
+    <string name="mountain2">
+        Click <a href="https://maps.app.goo.gl/hGYrrSJRAcZvE4SVA"> GPS </a>
+    </string>
+
+    <string name="mountain3">
+        Click <a href="https://maps.app.goo.gl/GWRYrgQCWsEEV9bx9"> GPS </a>
+    </string>
+
+    <string name="mountain4">
+        Click <a href="https://maps.app.goo.gl/ctEb3DS2KkbAGkv49"> GPS </a>
+    </string>
+
+    <string name="mountain5">
+        Click <a href="https://maps.app.goo.gl/22yKm4FEA9wW77iy5"> GPS </a>
+    </string>
+
+    <string name="mountain6">
+        Click <a href="https://maps.app.goo.gl/Bhokj81XJvuEJJ6x6"> GPS </a>
+    </string>
+
+    <string name="mountain7">
+        Click <a href="https://maps.app.goo.gl/vm7gDUPhircE7tpg9"> GPS </a>
+    </string>
+
+    <string name="mountain8">
+        Click <a href="https://maps.app.goo.gl/Foxqrc6MVnCFKqjj8"> GPS </a>
+    </string>
+
+    <string name="mountain9">
+        Click <a href="https://maps.app.goo.gl/gnuFX12jneWe1RED8"> GPS </a>
+    </string>
+
+    <string name="mountain10">
+        Click <a href="https://maps.app.goo.gl/fRHBxAw9pG9Z3jjn6"> GPS </a>
+    </string>
+
+    <string name="tradition1">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%9C%E0%B8%B5%E0%B8%95%E0%B8%B2%E0%B9%82%E0%B8%82%E0%B8%99"> Wiki </a>
+    </string>
+
+    <string name="tradition2">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%87"> Wiki </a>
+    </string>
+
+    <string name="tradition3">
+        Click <a href="https://wiki.m-culture.go.th/index.php/%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%A9%E0%B8%B2"> Wiki </a>
+    </string>
+
+    <string name="tradition4">
+        Click <a href="https://kiw230841.wordpress.com/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%93%E0%B8%B5%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%93%E0%B8%B5%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B8%A7-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95/"> Wiki </a>
+    </string>
+
+    <string name="tradition5">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A2"> Wiki </a>
+    </string>
+
+    <string name="tradition6">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%87"> Wiki </a>
+    </string>
+
+    <string name="tradition7">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%9A%E0%B8%B8%E0%B8%8D%E0%B8%9A%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%9F"> Wiki </a>
+    </string>
+
+    <string name="tradition8">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2"> Wiki </a>
+    </string>
+
+    <string name="tradition9">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%A9%E0%B8%B2"> Wiki </a>
+    </string>
+
+    <string name="tradition10">
+        Click <a href="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%A9%E0%B8%B2"> Wiki </a>
+    </string>
+
+</resources>

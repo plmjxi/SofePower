@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".place.Island">
+
+        <RelativeLayout
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/light_pink"
+            android:padding="10dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Island"
+                android:textColor="@color/dark_white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/island1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/Header">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohlarn"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/korlan">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+        <LinearLayout
+            android:id="@+id/alltext1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/island01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koh Larn"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="เกาะล้าน"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textviewkohlarn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/light_pink"
+                android:text="@string/island1"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/island2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/island1">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohphiphi"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohphiphi">
+            </com.google.android.material.imageview.ShapeableImageView>
+        <LinearLayout
+            android:id="@+id/alltext2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/island02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koh Phi Phi"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="เกาะพีพี"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textviewkohphiphi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/light_pink"
+                android:text="@string/island2"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+     </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island2">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohtao"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohtao">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/alltext3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Tao"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะเต่า"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohtao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island3"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island3">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohsamui"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohsamui">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <LinearLayout
+                android:id="@+id/alltext4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Samui"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะสมุย"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohsamui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island4"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island4">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohchang"
+                android:layout_width="200dp"
+                android:layout_height="145dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohchang">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <LinearLayout
+                android:id="@+id/alltext5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Chang"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะข้าง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohchang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island5"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island5">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohsimilan"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohsimirun">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <LinearLayout
+                android:id="@+id/alltext6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Similan"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะสิมิลัน"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohsimilan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island6"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island6">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohlanta"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohlanta">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <LinearLayout
+                android:id="@+id/alltext7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Lanta"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะลันตา"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohlanta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island7"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island7">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohlipe"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohlepi">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <LinearLayout
+                android:id="@+id/alltext8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Lepi"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะหลีเป๊ะ"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohlipe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island8"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island8">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohsamet"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohsamet">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <LinearLayout
+                android:id="@+id/alltext9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Samet"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะเสม็ด"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohsamet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island9"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/island10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/island9">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohkood"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohkood">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+
+            <LinearLayout
+                android:id="@+id/alltext10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/island010"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Kood"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="เกาะกูด"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohkood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/island10"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+         </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

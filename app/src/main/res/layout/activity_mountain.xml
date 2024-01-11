@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".place.Mountain">
+
+        <RelativeLayout
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/light_pink"
+            android:padding="10dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mountain"
+                android:textColor="@color/dark_white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/Header">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/doiinthanon"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/doiinthanon">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doi Inthanon"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ดอยอินทนนท์"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewdoiinthanon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain1">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/doiphahompok"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/doiphahompok">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doi Pha Hom Pok"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ดอยผ้าห่มปก"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewdoiphahompok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain2"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain2">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/doiluangchaing"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/doiluangchaing">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doi Luang Chiang Dao"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ดอยหลวงเชียงดาว"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewdoiluangchaing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain3"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain3">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/phusoidao"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/phosoidao">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phu Soi Dao"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ภูสอยดาว"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewphusoidao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain4"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain4">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/doilangkaluang"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/doilangkaluang">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doi Langka Luang"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ดอยลังกาหลวง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewdoilangkaluang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain5"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain5">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/doiphukha"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/doiphuka">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doi Phu Kha"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ดอยภูคา"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewdoiphukha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain6"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain6">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/doichang"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/doichang">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doi Chang"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ดอยช้าง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewdoichang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain7"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain7">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/mogoju"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/mogoju">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mogoju Mountain"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ยอดเขาโมโกจู"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewmogoju"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain8"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain8">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/monjong"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/monjong">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doi Mon Jong"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ดอยม่อนจอง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewmonjong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain9"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mountain10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/mountain9">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/khoaluang"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/khoaluang">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mountain010"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khao Luang National Park"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ยอดเขาหลวง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkhoaluang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/mountain10"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

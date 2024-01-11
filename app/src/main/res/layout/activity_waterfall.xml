@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".place.Waterfall">
+
+        <RelativeLayout
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/light_pink"
+            android:padding="10dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waterfall"
+                android:textColor="@color/dark_white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/Header">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/thilosu"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/thilosu">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thi Lo Su Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกทีลอซู"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewthilosu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall1">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/meaya"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/meaya">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mae Ya Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกแม่ยะ"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewmeaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall2"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall2">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/huaymae"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/huaymae">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Huay Mae Khamin Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกห้วยแม่ขมิ้น"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewhuaymae"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall3"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall3">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/erawan"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/erawan">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Erawan Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกเอราวัณ"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewerawan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall4"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall4">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/phatad"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/phatad">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pha Tad Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกผาตาด"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewphatad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall5"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall5">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/krungching"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/krungching">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Krung Ching Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกกรุงชิง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkrungching"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall6"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall6">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/kohluang"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/kohluang">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koh Luang Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกก้อหลวง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewkohluang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall7"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall7">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/mandaeng"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/mandaeng">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Man Daeng Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกหมันแดง"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewmandaeng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall8"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall8">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/tadton"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/tadton">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tad Ton Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกตาดโตน"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewtadton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall9"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/waterfall10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@id/waterfall9">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/haewnarok"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                android:layout_gravity="center"
+                android:src="@drawable/haewnarok">
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <LinearLayout
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/waterfall010"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Haew Narok Waterfall"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="น้ำตกเหวนรก"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewhaewnarok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/waterfall10"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
