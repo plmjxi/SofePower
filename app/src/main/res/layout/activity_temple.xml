@@ -32,6 +32,25 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <TextView
+                android:id="@+id/textview06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black"
+                android:textSize="0dp" />
+
+            <Button
+                android:id="@+id/button06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Random"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:layout_marginLeft="270dp"/>
+
         </RelativeLayout>
 
         <LinearLayout
