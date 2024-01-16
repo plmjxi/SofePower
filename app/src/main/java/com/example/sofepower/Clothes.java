@@ -2,8 +2,8 @@ package com.example.sofepower;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -29,11 +29,20 @@ public class Clothes extends AppCompatActivity {
             "Thai Prayurk",
     };
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clothes);
+
+        setLinkMovementMethod(R.id.textviewthaireunton);
+        setLinkMovementMethod(R.id.textviewthaichitralada);
+        setLinkMovementMethod(R.id.textviewthaiamarintra);
+        setLinkMovementMethod(R.id.textviewthaiborom);
+        setLinkMovementMethod(R.id.textviewthaidusit);
+        setLinkMovementMethod(R.id.textviewthaichakri);
+        setLinkMovementMethod(R.id.textviewthaisivalai);
+        setLinkMovementMethod(R.id.textviewthaichakraphad);
+        setLinkMovementMethod(R.id.textviewthaiprayurk);
 
         txt = findViewById(R.id.textview02);
         btn = findViewById(R.id.button02);
@@ -106,5 +115,8 @@ public class Clothes extends AppCompatActivity {
                 break;
         }
     }
+    private void setLinkMovementMethod(int textViewResourceId) {
+        TextView textView = findViewById(textViewResourceId);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+    }
 }
-

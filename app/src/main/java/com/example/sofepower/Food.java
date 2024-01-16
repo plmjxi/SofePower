@@ -18,11 +18,11 @@ public class Food extends AppCompatActivity {
     LinearLayout foodLayout1, foodLayout2, foodLayout3, foodLayout4, foodLayout5, foodLayout6, foodLayout7, foodLayout8, foodLayout9, foodLayout10;
 
     String[] thaiFoodItems = {
-            "Spicy Shrimp Soup",
+            "Tom Yum Kung",
             "Pad Thai",
             "Stir Fried Basil",
             "Papaya Salad",
-            "Stir-Fried Beef with Yellow Curry Paste",
+            "Kuo Kling",
             "Khao Soi",
             "Panaeng Curry",
             "Khanom Jeen",
@@ -90,7 +90,7 @@ public class Food extends AppCompatActivity {
         hideAllFoodLayouts();
 
         switch (foodItem) {
-            case "Spicy Shrimp Soup":
+            case "Tom Yum Kung":
                 foodLayout1.setVisibility(View.VISIBLE);
                 break;
             case "Pad Thai":
@@ -102,7 +102,7 @@ public class Food extends AppCompatActivity {
             case "Papaya Salad":
                 foodLayout4.setVisibility(View.VISIBLE);
                 break;
-            case "Stir-Fried Beef with Yellow Curry Paste":
+            case "Kuo Kling":
                 foodLayout5.setVisibility(View.VISIBLE);
                 break;
             case "Khao Soi":

@@ -94,6 +94,16 @@
                     android:textColor="@color/black"
                     android:textSize="17dp" />
 
+                <TextView
+                    android:id="@+id/textviewthaireunton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes1"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
             </LinearLayout>
 
         </LinearLayout>
@@ -125,11 +135,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Thai Chitralada"
                     android:gravity="center"
-                    android:textStyle="bold"
+                    android:text="Thai Chitralada"
                     android:textColor="@color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -138,6 +148,16 @@
                     android:text="ชุดไทยจิตรลดา"
                     android:textColor="@color/black"
                     android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewthaichitralada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes2"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
@@ -184,6 +204,16 @@
                     android:textColor="@color/black"
                     android:textSize="17dp" />
 
+                <TextView
+                    android:id="@+id/textviewthaiamarintra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes3"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
             </LinearLayout>
 
         </LinearLayout>
@@ -228,6 +258,16 @@
                     android:text="ชุดไทยบรมพิมาน"
                     android:textColor="@color/black"
                     android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewthaiborom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes4"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
@@ -274,6 +314,16 @@
                     android:textColor="@color/black"
                     android:textSize="17dp" />
 
+                <TextView
+                    android:id="@+id/textviewthaidusit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes5"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
             </LinearLayout>
 
         </LinearLayout>
@@ -318,6 +368,16 @@
                     android:text="ชุดไทยจักรี"
                     android:textColor="@color/black"
                     android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewthaichakri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes6"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
@@ -364,6 +424,16 @@
                     android:textColor="@color/black"
                     android:textSize="17dp" />
 
+                <TextView
+                    android:id="@+id/textviewthaisivalai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes7"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
             </LinearLayout>
 
         </LinearLayout>
@@ -409,6 +479,16 @@
                     android:textColor="@color/black"
                     android:textSize="17dp" />
 
+                <TextView
+                    android:id="@+id/textviewthaichakraphad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes8"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
             </LinearLayout>
 
         </LinearLayout>
@@ -453,6 +533,16 @@
                     android:text="ชุดไทยประยุกต์"
                     android:textColor="@color/black"
                     android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textviewthaiprayurk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@color/light_pink"
+                    android:text="@string/clothes9"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
 
             </LinearLayout>
 

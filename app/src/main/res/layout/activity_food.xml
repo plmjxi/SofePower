@@ -83,7 +83,7 @@ android:fillViewport="true">
                 android:id="@+id/Food01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Spicy Shrimp soup"
+                android:text="Tom Yum Kung"
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="20dp" />
@@ -137,7 +137,7 @@ android:fillViewport="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pad thai"
+                android:text="Pad Thai"
                 android:textColor="@color/black"
                 android:textSize="20dp" />
 
@@ -296,7 +296,7 @@ android:fillViewport="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Stir-Fried Beef with Yellow Curry Paste"
+                android:text="Kuo Kling"
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="20dp" />
